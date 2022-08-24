@@ -1,0 +1,15 @@
+local args = {
+    [1] = workspace.Entities.Pablo.Humanoid,
+    [2] = CFrame.new(95.24695587158203, 144.9419403076172, 68.92179870605469) * CFrame.Angles(1.3930346965789795, 0.28497248888015747, -0.12331879138946533),
+    [3] = 100000,
+    [4] = 0.25,
+    [5] = Vector3.new(25.08446502685547, -0.0000022876588445797097, -43.25239181518555),
+    [6] = "rbxassetid://241837157",
+    [7] = 0.075,
+    [8] = nil --[[Color3]],
+    [9] = "rbxassetid://386946017",
+    [10] = 0.9,
+    [11] = 0.9
+}
+
+game:GetService("ReplicatedStorage").BleedDamage:FireServer(unpack(args))
